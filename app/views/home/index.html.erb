@@ -6,8 +6,16 @@
 
  <% @tag_result['data'].each do |result| %>
   		<% if result['type'] == ['video'] %>
-  			<%= result['videos']['standard_resolution']['url'] %>
+  			
+
+  			<video width="400" controls>
+			  <source src="<%= result['videos']['standard_resolution']['url'] %>">
+			  <source src="<%= result['videos']['standard_resolution']['url'] %>">
+			  Your browser does not support HTML5 video.
+			</video>
+			
+
   		<% else %>
-  			<%= result['images']['standard_resolution']['url'] %>
+  			<img src= "<%= result['images']['standard_resolution']['url'] %>">
   		<% end %>
   	<% end %>
