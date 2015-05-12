@@ -8,12 +8,10 @@
   		<% if result['type'] == ['video'] %>
   			
 
-  			<video width="400" controls>
-			  <source src="<%= result['videos']['standard_resolution']['url'] %>">
-			  <source src="<%= result['videos']['standard_resolution']['url'] %>">
-			  Your browser does not support HTML5 video.
-			</video>
-			
+  			
+  			<video width = "320 height = "240" controls>
+  			<source src="<%= result['videos']['standard_resolution']['url'] %>" >
+  			</video>
 
   		<% else %>
   			<img src= "<%= result['images']['standard_resolution']['url'] %>">
