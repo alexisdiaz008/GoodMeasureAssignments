@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color:#f1f1f1;
+  height: 40px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#main-search {
+  float: left;
+  height: 100%;
+}
+
+#user-links {
+  float: right;
+  height: 100%;
+  margin: 7px 0 0 15px;
+}
+
+#main-search img {
+  margin: 7px 0 0 15px;
+  height: 70%;
+}
+
+nav{
+  display: inline;
+  font-size: .75rem;
+}
+
+nav ul{
+  padding: 0;
+  margin-left: 100px;
+}
+
+nav li {
+  display: inline;
+}
+
+main {
+  margin-left: 100px;
+}

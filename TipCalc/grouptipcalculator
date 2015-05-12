@@ -1,0 +1,105 @@
+class Person
+  attr_accessor :check
+  @@people=[]
+  # @@bill
+  # @@tip
+  # @@total
+
+
+
+  def initialize(check, tip)
+    @check=check
+    @tip=tip
+  end
+
+def self.bill_amount(bill)
+
+  # puts "How much was your portion of the bill?"
+  # bill=gets.chomp
+
+end
+
+def tip_amount(bill,tip)
+  "How much would you like to tip?"
+  total=bill*tip
+end
+
+def self.create_person
+ p "How many people??"
+  amount=gets.chomp.to_i
+  amount.times do
+    p "How big is your check?"
+    check=gets.chomp.to_i
+    p "How much would you like to tip?"
+    tip=gets.chomp.to_f
+    tip_perc = (tip/100)
+    p tip = tip_perc
+    p @@people<<Person.new(check, tip)
+    puts "we have #{amount} people and tip is:#{tip}"
+    real_tip=tip_perc*check
+    p "your total tipping is #{real_tip}"
+  end
+
+
+  def self.apply_tip
+    tip_amount
+    @@people.each do |person|
+      p person.check*tip
+    end
+
+  end
+
+end
+
+end
+
+
+# class Bill<Person
+#
+#   def initialize(check, tip)
+#     @check=check
+#     @tip=tip
+#   end
+#
+#   def self.total_bill(check, tip)
+#   total_bill=check+tip
+#   end
+# end
+#
+#
+# def take_input(output)
+# output
+# input=gets.chomp
+# end
+
+
+
+
+
+
+
+# "Welcome to the Tip Calculator!"
+#
+# "Lets start with how much the bill was"
+# bill=gets.chomp
+#
+# "Now how good would you say your service was: poor:no tip, good: average tip, exceptional: great tip, or custom tip"
+# tip= gets.chomp
+#
+# "Your total bill is: #{total}"
+
+
+# def test
+#   "How much was your bill"
+# Person.bill_amount(40)
+#  "How good was service; ie tip amount"
+# Person.tip_amount(.15)
+#   "your bill total and tip are:"
+# Bill.total
+# Bill.tip
+# end
+#
+# p test
+Person.create_person
+# Person.bill_total
+Person.apply_tip

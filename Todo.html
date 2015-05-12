@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:3000/todo_items -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Todo</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="http://localhost:3000/assets/todo_items.self-00fe63f7e35a8820913e829b5979b00613c4fb1ec2357be1fa371741a3f821fd.css?body=1" data-turbolinks-track="true">
+<link rel="stylesheet" media="all" href="http://localhost:3000/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" data-turbolinks-track="true">
+  <script src="./Todo_files/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js" data-turbolinks-track="true"></script><style type="text/css"></style>
+<script src="./Todo_files/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js" data-turbolinks-track="true"></script>
+<script src="./Todo_files/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js" data-turbolinks-track="true"></script>
+<script src="./Todo_files/todo_items.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js" data-turbolinks-track="true"></script>
+<script src="./Todo_files/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="XwDW3V4DYDeOJVtbHDF3kENwMbCIfGyNibpTODfe0f7vp4nFc4VLjHYdpfJpOmKiet+uDgc3Slwle//H4e6ZAA==">
+</head>
+<body>
+
+<p id="notice"></p>
+
+<!-- <h1>Listing Todo Items</h1> -->
+
+<h1 class="sub-header">Wyncode Work Prioritizer</h1>
+
+<a href="http://localhost:3000/todo_items/new">New Todo item</a>
+
+
+
+
+
+<!-- TABLE: LISTING AREA -->
+
+
+    <div class="table-responsive">
+      <table class="table table-striped">  <thead>
+        <tr>
+          <th>Work Item Description</th>
+          <th>Display</th>
+          <th colspan="1"></th>
+          
+          <th>Change</th>
+          <th colspan="1"></th>
+          
+          <th>Eliminate</th>
+          
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Iterating through items to display -->
+
+          <tr>
+            <!-- setting our tables, left to right -->
+            <td>asdsad</td>
+
+            <td><a href="http://localhost:3000/todo_items/7">Show</a></td>
+            <!-- some spacers -->
+            <th colspan="1"></th>
+            <td><a href="http://localhost:3000/todo_items/7/edit">Edit</a></td>
+
+            <th colspan="1"></th>
+            <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="http://localhost:3000/todo_items/7">Destroy</a></td>
+            <!-- cmds link to ActionController Methods? -->
+          </tr>
+
+          <tr>
+            <!-- setting our tables, left to right -->
+            <td>asdasdasd</td>
+
+            <td><a href="http://localhost:3000/todo_items/8">Show</a></td>
+            <!-- some spacers -->
+            <th colspan="1"></th>
+            <td><a href="http://localhost:3000/todo_items/8/edit">Edit</a></td>
+
+            <th colspan="1"></th>
+            <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="http://localhost:3000/todo_items/8">Destroy</a></td>
+            <!-- cmds link to ActionController Methods? -->
+          </tr>
+
+          <tr>
+            <!-- setting our tables, left to right -->
+            <td>asdasdasdasd</td>
+
+            <td><a href="http://localhost:3000/todo_items/9">Show</a></td>
+            <!-- some spacers -->
+            <th colspan="1"></th>
+            <td><a href="http://localhost:3000/todo_items/9/edit">Edit</a></td>
+
+            <th colspan="1"></th>
+            <td><a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="http://localhost:3000/todo_items/9">Destroy</a></td>
+            <!-- cmds link to ActionController Methods? -->
+          </tr>
+      </tbody>
+    </table>
+  </div>
+    <br>
+
+
+
+
+
+
+
+		<!-- 		BOOTSTRAP TEMP		 -->
+
+
+
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://localhost:3000/todo_items#"><img src="./Todo_files/WdXNyfs.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://localhost:3000/todo_items#">Dashboard</a></li>
+            <li><a href="http://localhost:3000/todo_items#">Settings</a></li>
+            <li><a href="http://localhost:3000/todo_items#">Profile</a></li>
+            <li><a href="http://localhost:3000/todo_items#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   <!--  <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+
+          <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+              <img data-src="holder.js/200x200/auto/vine" class="img-responsive" alt="Generic placeholder thumbnail">
+              <h4>Label</h4>
+              <span class="text-muted">Something else</span>
+            </div>
+          </div>
+ -->
+<!-- LISTING AREA -->
+<!-- 
+          <h2 class="sub-header">Wyncode Work Prioritizer</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Work Item Description</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                  <th>Header</th>
+                </tr>
+              </thead>
+              <tbody> -->
+              	<!-- 
+                <tr>
+                  <td>1,001</td>
+                  <td>Lorem</td>
+                  <td>ipsum</td>
+                  <td>dolor</td>
+                  <td>sit</td>
+                </tr> -->
+          <!--       <tr>
+                  <td>1,002</td>
+                  <td>amet</td>
+                  <td>consectetur</td>
+                  <td>adipiscing</td>
+                  <td>elit</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>Integer</td>
+                  <td>nec</td>
+                  <td>odio</td>
+                  <td>Praesent</td>
+                </tr>
+                <tr>
+                  <td>1,003</td>
+                  <td>libero</td>
+                  <td>Sed</td>
+                  <td>cursus</td>
+                  <td>ante</td>
+                </tr>
+                <tr>
+                  <td>1,004</td>
+                  <td>dapibus</td>
+                  <td>diam</td>
+                  <td>Sed</td>
+                  <td>nisi</td>
+                </tr>
+                <tr>
+                  <td>1,005</td>
+                  <td>Nulla</td>
+                  <td>quis</td>
+                  <td>sem</td>
+                  <td>at</td>
+                </tr>
+                <tr>
+                  <td>1,006</td>
+                  <td>nibh</td>
+                  <td>elementum</td>
+                  <td>imperdiet</td>
+                  <td>Duis</td>
+                </tr>
+                <tr>
+                  <td>1,007</td>
+                  <td>sagittis</td>
+                  <td>ipsum</td>
+                  <td>Praesent</td>
+                  <td>mauris</td>
+                </tr>
+                <tr>
+                  <td>1,008</td>
+                  <td>Fusce</td>
+                  <td>nec</td>
+                  <td>tellus</td>
+                  <td>sed</td>
+                </tr>
+                <tr>
+                  <td>1,009</td>
+                  <td>augue</td>
+                  <td>semper</td>
+                  <td>porta</td>
+                  <td>Mauris</td>
+                </tr>
+                <tr>
+                  <td>1,010</td>
+                  <td>massa</td>
+                  <td>Vestibulum</td>
+                  <td>lacinia</td>
+                  <td>arcu</td>
+                </tr>
+                <tr>
+                  <td>1,011</td>
+                  <td>eget</td>
+                  <td>nulla</td>
+                  <td>Class</td>
+                  <td>aptent</td>
+                </tr>
+                <tr>
+                  <td>1,012</td>
+                  <td>taciti</td>
+                  <td>sociosqu</td>
+                  <td>ad</td>
+                  <td>litora</td>
+                </tr>
+                <tr>
+                  <td>1,013</td>
+                  <td>torquent</td>
+                  <td>per</td>
+                  <td>conubia</td>
+                  <td>nostra</td>
+                </tr>
+                <tr>
+                  <td>1,014</td>
+                  <td>per</td>
+                  <td>inceptos</td>
+                  <td>himenaeos</td>
+                  <td>Curabitur</td>
+                </tr>
+                <tr>
+                  <td>1,015</td>
+                  <td>sodales</td>
+                  <td>ligula</td>
+                  <td>in</td>
+                  <td>libero</td>
+                </tr> -->
+              
+            
+          
+        
+      
+    
+
+
+
+
+<!-- SCRIPT SOURCES / JQUERY -->
+
+
+<script src="./Todo_files/jquery.min.js"></script>
+<script src="./Todo_files/bootstrap.min.js"></script>
+
+
+</body></html>

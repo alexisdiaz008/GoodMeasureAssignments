@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Deprecated Fonts Tags</title>
+
+<style>
+
+ #Wyncode { color: #0066FF;
+ size:5;
+ face: Verdana,Arial, Helvetica, sans-serif;
+
+ font-style: italic;
+ font-weight: bold;
+ }
+
+ #CodeSchool {
+   color: #FF3300;
+   size: 4;
+   font-family: Georgia, "Times New Roman", Times,serif;
+
+   font-style: italic;
+   font-weight: bold;
+ }
+
+</style>
+
+</head>
+
+<body>
+  <h1 id="Wyncode">
+      Wyncode
+  </h1>
+  <h1 id="CodeSchool">
+    Code School
+  </h1>
+</body>
+</html>

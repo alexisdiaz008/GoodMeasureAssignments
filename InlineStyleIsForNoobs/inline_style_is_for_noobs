@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSS</title>
+
+  <style>
+
+    h1{font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    color: #C00;
+    font-style:italic;}
+
+    p{font-weight: bold;}
+
+    .quote {font-family: Georgia, serif;
+      font-size: 18px;
+      font-style: italic;
+      width: 500px;
+      line-height: 1.45;
+      color: #383838;}
+
+  </style>
+  
+
+</head>
+
+<body style="">
+  <h1>CSS3</h1>
+  <p>Cascading Style Sheets</p>
+  <p class="quote">
+    "You are the CSS to my HTML."
+  </p>
+</body>
+
+</html>
